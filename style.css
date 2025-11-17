@@ -1,0 +1,50 @@
+/* 设置整体字体和背景 */
+body {
+    font-family: 'Arial', sans-serif; /* 找个清爽的字体 */
+    background-color: #f4f7f6; /* 超淡灰，比纯白更舒服 */
+    color: #333; /* 主体文字颜色 */
+    line-height: 1.6; /* 增加行距，阅读更舒适 */
+    margin: 0; /* 移除默认的边距 */
+    padding: 0;
+}
+
+/* 容器：让内容居中，别太宽 */
+header, section, footer {
+    max-width: 800px;
+    margin: 20px auto; /* 居中 + 上下留白 */
+    padding: 20px;
+    background-color: #ffffff; /* 内容区块背景色 */
+    border-radius: 10px; /* 圆角，更现代 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 加点阴影，有立体感 */
+}
+
+/* 标题样式 */
+h1 {
+    color: #007bff; /* 用点活泼的蓝色 */
+    border-bottom: 3px solid #007bff;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #28a745; /* 用点生机勃勃的绿色 */
+}
+
+/* 底部样式 */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.8em;
+    color: #6c757d;
+    box-shadow: none; /* 底部可以不用阴影 */
+    background-color: #e9ecef;
+}
+
+/* 链接样式，让它们看起来像链接 */
+a {
+    color: #007bff;
+    text-decoration: none; /* 移除下划线 */
+}
+
+a:hover {
+    text-decoration: underline; /* 鼠标悬停时显示下划线 */
+}
